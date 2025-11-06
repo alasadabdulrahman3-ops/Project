@@ -5,8 +5,8 @@
     <classes>
       <class name="Project.Project1">
         <methods>
+          <include name="Add3"/>
           <include name="mySetup"/>
-          <include name="testProductSortDropdown"/>
         </methods>
       </class> <!-- Project.Project1 -->
     </classes>
