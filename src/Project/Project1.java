@@ -137,10 +137,10 @@ Add3.get(randomA4).click();
 Add3.get(randomA5).click();		
 WebElement basket = driver.findElement(By.className("shopping_cart_link"));
 basket.click();
-Thread.sleep(1000); // بس عشان نشوف التغيير بصرياً
+Thread.sleep(2500); // بس عشان نشوف التغيير بصرياً
 WebElement Checkout = driver.findElement(By.id("checkout"));
 Checkout.click();
-Thread.sleep(1000); // بس عشان نشوف التغيير بصرياً
+Thread.sleep(2500); // بس عشان نشوف التغيير بصرياً
 WebElement firstName = driver.findElement(By.id("first-name"));
 WebElement lastName = driver.findElement(By.id("last-name"));
 WebElement postalCode = driver.findElement(By.id("postal-code"));
@@ -149,7 +149,7 @@ firstName.sendKeys("0");
 lastName.sendKeys("1");
 postalCode.sendKeys("2");
 cancel.click();
-Thread.sleep(1000);
+Thread.sleep(2500);
 WebElement finish = driver.findElement(By.id("finish"));
 finish.click();
 Thread.sleep(1000);
